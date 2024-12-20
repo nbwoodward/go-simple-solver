@@ -58,7 +58,8 @@ func main() {
 	cfg.NumTests = 1
 	simplegradient.Verbose = true
 
-	bestParams, bestAnswer := simplegradient.Minimize(cfg)
+	bestParams, bestAnswer = simplegradient.Minimize(cfg)
+	// Prints more information about the process
 }
 ```
 
